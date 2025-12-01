@@ -1,0 +1,51 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.10",
+    "@material-tailwind/react": "^2.1.10",
+    "@nextui-org/react": "^2.4.2",
+    "@solana/web3.js": "^1.95.4",
+    "@tanstack/react-query": "^5.45.1",
+    "@tma.js/react-router-integration": "^4.0.3",
+    "@tma.js/sdk-react": "^2.2.5",
+    "axios": "^1.7.7",
+    "bignumber.js": "^9.1.2",
+    "colorthief": "^2.6.0",
+    "copy-to-clipboard": "^3.3.3",
+    "framer-motion": "^11.2.11",
+    "jwt-decode": "^4.0.0",
+    "numeral": "^2.0.6",
+    "react": "^18.3.1",
+    "react-countdown": "^2.3.6",
+    "react-dom": "^18.3.1",
+    "react-form-stepper": "^2.0.3",
+    "react-router-dom": "^6.23.1",
+    "react-toastify": "^10.0.6",
+    "vite-plugin-svgr": "^4.2.0",
+    "web3-validator": "^2.0.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.4.0"
+  }
+}
